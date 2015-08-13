@@ -27,3 +27,5 @@ Type: Unknown, 	Range: {24, 1}, String: x, 	 Value: nil
 Type: ), 		Range: {25, 1}, String: ), 	 Value: nil
 Type: ), 		Range: {26, 1}, String: ),   Value: nil
 ```
+
+Once the expression has been tokenized,
