@@ -35,3 +35,15 @@ Once the expression has been tokenized, tokens will be used from RPN calculator,
 ```
 
 Then RPN calculator evaluate the postfix tokens and retrieve the result.
+
+----------
+#Example
+
+```
+var error: NSerror?
+let parser = Parser(expression: "10 ^ 2 + (7 * 8) + cos(x)", error: &error)
+let tokens = parser.parse()
+
+let rpn = RPN(tokens: tokens)
+let result = rpn.evaluate()
+```
