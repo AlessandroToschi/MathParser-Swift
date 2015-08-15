@@ -28,4 +28,10 @@ Type: ), 		Range: {25, 1}, String: ), 	 Value: nil
 Type: ), 		Range: {26, 1}, String: ),   Value: nil
 ```
 
-Once the expression has been tokenized,
+Once the expression has been tokenized, tokens will be used from RPN calculator, that converts the infix tokens to postfix tokens. 
+
+```
+10 2 ^ 7 8 * + x cos +
+```
+
+Then RPN calculator evaluate the postfix tokens and retrieve the result.
